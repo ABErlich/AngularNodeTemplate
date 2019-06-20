@@ -1,0 +1,22 @@
+{
+  "name": "angularnodetemplate",
+  "version": "1.0.0",
+  "description": "Template proyect for node and angular",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABErlich/AngularNodeTemplate.git"
+  },
+  "author": "AErlich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABErlich/AngularNodeTemplate/issues"
+  },
+  "homepage": "https://github.com/ABErlich/AngularNodeTemplate#readme",
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
