@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path')
 const configs = require('./config/config')
-
+const loader = require('./loaders/loader');
 
 var app = express();
 
@@ -9,12 +9,7 @@ var app = express();
 app.use(express.static(path.join(__dirname, '../clientApp/dist/clientApp')));
 
 // Configuro API
-
-
-
-
-
-
+loader(app);
 
 
 // Cualquier otro request que pida y no sea parte de mi api
